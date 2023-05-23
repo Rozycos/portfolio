@@ -1,0 +1,143 @@
+.nav {
+    display:flex;
+    justify-content: space-between;
+    height: 3.75rem;
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    
+    &-background{
+        background-color: white;
+    }
+
+    h1{
+        font-family: $font-alt;
+        font-size: 1.5625rem;
+        font-weight: bold;
+        display:flex;
+        align-items: center;
+        margin: 0 1rem 0;
+    }
+    
+    ul{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        
+        li{
+            margin: 1rem 1rem ;
+            text-align: center;
+
+            &:last-child{
+                display: none;
+            }
+            
+            @include tablet{
+                display: none;
+
+                &:last-child{
+                    display: inline-block;
+                }
+            }
+        }
+
+    }
+}
+
+.hamburger{
+    
+    &-icon {
+        display: inline-block;
+        cursor: pointer;
+
+    }
+
+    &-nav{
+        display:none;
+        
+        @include tablet{
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top:60px;
+            background-color: white;
+            border-top: 1px solid $color-light-grey;
+
+        }
+
+        ul{
+            //display:flex;
+            //flex-direction: column;
+            cursor: pointer;
+            float: left;
+            clear: left;
+            
+            li{
+                margin: 1rem 1rem ;
+                //text-align: center;
+                float: left;
+                clear: left;
+                
+            }
+        }
+    }
+}
+
+
+.bar1, .bar2, .bar3 {
+    width: 2.1875rem;
+    height: .3125rem;
+    background-color: #333;
+    margin: .375rem 0;
+    transition: 0.4s;
+}
+
+.change {
+    .bar1{
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+
+    .bar2{
+        opacity: 0;
+    }
+
+    .bar3{
+        transform: translate(0, -11px) rotate(45deg);
+    }
+}
+
+.scroll-link{
+    display: block;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    //border-bottom: 2px solid white;
+    width:0%;
+    transition: width .2s linear;
+    //color: white;
+    
+
+}
+
+.active{
+    display: block;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: width .2s linear;
+    //max-width:10%;
+    width:100%;
+    color: black;
+    
+    &-secondary{
+        display: block;
+        color: white;
+        border-bottom: 2px solid white;
+        transition: width .2s linear;
+        //max-width:10%;
+        width:100%;
+        
+    }
+}
+
+
+body{
+    background-color: beige;
+}
