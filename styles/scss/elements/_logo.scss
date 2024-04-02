@@ -1,0 +1,58 @@
+.logo{
+	color: white;
+	font-family: "Ubuntu Mono", monospace;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.5rem;
+	text-transform: lowercase;
+	/* height:100%; */
+    
+    &__main{
+        display: flex;
+        justify-content:flex-end;
+        height: 26px;
+        width: 115px;
+        //background: black;
+        //transform: translate(10%, -20%);
+        //text-align: center;
+        
+    }
+
+    &__icon{
+        /* font-size: 1rem; */
+        color: #EEFF5F;
+        margin-right: .1rem;
+    }
+
+    &__sqr1{
+        /* border: 2px solid #F4DCFE; */
+        border-top: 3px solid white;
+        border-left: 3px solid white;
+        border-right: 3px solid white;
+        width: 40px;
+        height: 7px;
+        
+    }
+
+    &__sqr2{
+        /* border: 2px solid #F4DCFE; */
+    
+        border-left: 3px solid white;
+        width: 140px;
+        height: 26px;
+        //text-align: right;
+    }
+
+    &__sqr3{
+        /* border: 2px solid #F4DCFE; */
+        border-bottom: 3px solid white;
+        border-left: 3px solid white;
+        border-right: 3px solid white;
+        width: 40px;
+        height: 7px;
+    }
+    &__link{
+        //color:$color-white;
+        text-decoration:none;
+    }
+}

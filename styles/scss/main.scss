@@ -4,12 +4,14 @@
 
 /* Settings */
 @import "settings/index";
-//@import "settings/fonts";
+@import "settings/fonts";
 //@import "settings/colors";
  
 /* Elements */
 //@import "elements/fonts";
 @import "elements/base";
+@import "elements/header";
+@import "elements/_logo";
 // @import "elements/navigation";
 // @import "elements/infoSection";
 // @import "elements/sliderSection";
