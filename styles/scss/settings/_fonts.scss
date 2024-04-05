@@ -2,6 +2,7 @@
 
 $font-inter: var(--font-inter); //main font
 $font-ubuntu: var(--font-ubuntu); //logo font
+$font-pixel: var(--font-pixel);
 // $font-varela: 'Varela', sans-serif; //title font for slider
 // $logo-font: 'Croissant One', cursive; //logo font
 
@@ -14,6 +15,6 @@ body {
     font-family: $font-inter;
   }
    
-  h1 {
-    font-family: $font-ubuntu;
-  }
+  // h1 {
+  //   font-family: $font-ubuntu;
+  // }

@@ -1,58 +1,55 @@
 .logo{
-	color: white;
-	font-family: "Ubuntu Mono", monospace;
-	font-weight: bold;
+	display: block;
+    color: whitesmoke;
+    font-family: var(--font-pixel);
 	font-style: normal;
-	font-size: 1.5rem;
-	text-transform: lowercase;
-	/* height:100%; */
     
     &__main{
         display: flex;
-        justify-content:flex-end;
-        height: 26px;
-        width: 115px;
-        //background: black;
-        //transform: translate(10%, -20%);
-        //text-align: center;
-        
+        justify-content:flex-start;
     }
 
     &__icon{
-        /* font-size: 1rem; */
+        font-size: .56em;
         color: #EEFF5F;
-        margin-right: .1rem;
+        text-wrap: nowrap;
+        margin: 0 .15rem 0;
     }
 
     &__sqr1{
-        /* border: 2px solid #F4DCFE; */
-        border-top: 3px solid white;
-        border-left: 3px solid white;
-        border-right: 3px solid white;
-        width: 40px;
-        height: 7px;
+        border-top: .075em solid whitesmoke;
+        border-left: .075em solid whitesmoke;
+        border-right: .075em solid whitesmoke;
+        width: 1em;
+        height: 0.175em;
         
     }
 
     &__sqr2{
-        /* border: 2px solid #F4DCFE; */
-    
-        border-left: 3px solid white;
-        width: 140px;
-        height: 26px;
-        //text-align: right;
+        border-left: .075em solid whitesmoke;
+        line-height: .65em;
     }
 
     &__sqr3{
-        /* border: 2px solid #F4DCFE; */
-        border-bottom: 3px solid white;
-        border-left: 3px solid white;
-        border-right: 3px solid white;
-        width: 40px;
-        height: 7px;
+        border-bottom: .075em solid whitesmoke;
+        border-left: .075em solid whitesmoke;
+        border-right: .075em solid whitesmoke;
+        width: 1em;
+        height: 0.175em;
     }
     &__link{
-        //color:$color-white;
         text-decoration:none;
+    }
+
+    &__name {
+        
+        &-pixel{
+            color: #F4DCFE;
+            font-size: 0.84em;
+        }
+        &-crafter{
+            color: whitesmoke;
+            font-size: 0.84em;
+        }
     }
 }

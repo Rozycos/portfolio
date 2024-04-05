@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Ubuntu } from "next/font/google";
+import { Inter, Ubuntu, Pixelify_Sans } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -15,8 +15,15 @@ const ubuntu = Ubuntu({
   display: 'swap',
 })
 
+const pixelify_sans = Pixelify_Sans({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['latin'],
+  variable: '--font-pixel',
+  display: 'swap',
+})
+
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Portfolio App | PixelCrafter.eu",
   description: "My personal portfolio app",
 };
 
@@ -27,7 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${ubuntu.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${ubuntu.variable} ${pixelify_sans.variable}`}>{children}</body>
     </html>
   )
 }

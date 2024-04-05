@@ -8,7 +8,7 @@ export const Header=()=>{
             <header className='header'>
                 <nav className='container header__nav header__nav--flex'>
                     <Link href="/" passHref className="logo__link">
-                        <Logo/>
+                        <Logo logoSize="1.5rem"/>
                     </Link>
                     <ul className='nav__list'>
                         <li className='nav__item'><a href="#" className='nav__link'>Strona główna</a></li>
@@ -18,7 +18,9 @@ export const Header=()=>{
                 </nav>
                 <div className='header__text header__text--position'>
                     <h2>MOJE HASŁO!!</h2>
+                    <Logo logoSize="10rem"/>
                 </div>
+                <Logo/>
             </header>
         </>
     )
