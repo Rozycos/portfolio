@@ -12,7 +12,7 @@
 //     background: linear-gradient(127deg, rgba(77,82,96,1) 0%, rgba(20,29,51,1) 22%, rgba(15,22,40,1) 39%, rgba(5,10,22,1) 100%);
 // }
 
-.container {
+.container__full-width {
 	width: 100vw;
 	//width:1200px;
 	max-width: 100%;
@@ -20,46 +20,10 @@
 	padding: 0 1rem;
 }   
 
-// h1{
-//     font-size: 4.5rem;
-//         @include mobile{
-//             font-size: 39px;
-//         }
-
-// }
-
-// .wrapper{
-//     background-image: url("../../../public/star_bacground.webp");
-//     background-repeat: no-repeat;
-//     background-size:cover;
-//     height: 100vh;
-//     //display: flex;
-//     //flex-direction: column;
-//     //justify-content: space-between;
-//     //transform: translate(0, -8.875rem);
-//     overflow: hidden;
-//     // &::after{
-//     //     content: "";
-//     //     display: block;
-//     //     width:700px;
-//     //     height: 700px;    
-//     //     background-image: url(../../../public/solar_system_sq.webp);
-//     //     background-repeat: no-repeat;
-//     //     background-size:cover;
-//     //     background-position: 1125%, 175%;
-//     //     //transform: translate(80%, -50%);
-//     //     //z-index: 10;
-            
-//     // }
-// }
-
-// .main-container{
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-//     //max-height:fit-content;
-//     //overflow: hidden;
-// }
+.container__fixed-width{
+	max-width: 70rem;
+	margin: 0 auto;
+}
 
 .hide{
     display: none;
