@@ -1,4 +1,4 @@
-import { Header } from '@/components/shared/Header/Header';
+import { Header } from '@/components/Home/Header';
 import './globals.scss';
 import { Logo } from '@/components/shared/Logo/Logo';
 

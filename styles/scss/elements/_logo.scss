@@ -1,6 +1,6 @@
 .logo{
 	display: block;
-    color: whitesmoke;
+    color: $color-white;
     font-family: var(--font-pixel);
 	font-style: normal;
     
@@ -17,23 +17,23 @@
     }
 
     &__sqr1{
-        border-top: .075em solid whitesmoke;
-        border-left: .075em solid whitesmoke;
-        border-right: .075em solid whitesmoke;
+        border-top: .075em solid $color-white;
+        border-left: .075em solid $color-white;
+        border-right: .075em solid $color-white;
         width: 1em;
         height: 0.175em;
         
     }
 
     &__sqr2{
-        border-left: .075em solid whitesmoke;
+        border-left: .075em solid $color-white;
         line-height: .65em;
     }
 
     &__sqr3{
-        border-bottom: .075em solid whitesmoke;
-        border-left: .075em solid whitesmoke;
-        border-right: .075em solid whitesmoke;
+        border-bottom: .075em solid $color-white;
+        border-left: .075em solid $color-white;
+        border-right: .075em solid $color-white;
         width: 1em;
         height: 0.175em;
     }
@@ -48,7 +48,7 @@
             font-size: 0.84em;
         }
         &-crafter{
-            color: whitesmoke;
+            color: $color-white;
             font-size: 0.84em;
         }
     }
