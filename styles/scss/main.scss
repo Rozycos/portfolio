@@ -4,16 +4,18 @@
 
 /* Settings */
 @import "settings/index";
-@import "settings/fonts";
-//@import "settings/colors";
+// @import "settings/fonts";
+// @import "settings/colors";
+// @import "settings/mixins";
  
 /* Elements */
 //@import "elements/fonts";
 @import "elements/base";
 @import "elements/header";
-@import "elements/_logo";
+@import "elements/logo";
 @import "elements/navigationBar";
-// @import "elements/infoSection";
+//@import "elements/navigation";
+@import "elements/hamburgerNav";
 // @import "elements/sliderSection";
 // @import "elements/header";
 // @import "elements/hero";

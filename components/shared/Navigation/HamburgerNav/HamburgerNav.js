@@ -14,28 +14,19 @@ export const HamburgerNav =()=>{
 
     return(
         <>
-            <nav className="container__fixed-width header__nav header__nav--flex">
-                <ul className="nav">
-                    <li>
-                        <div className={`nav-container ${isOpen ? 'change' : ''}` } onClick={toggleMenu}>
-                            <div className="bar1"></div>
-                            <div className="bar2"></div>
-                            <div className="bar3"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <Link href="/" passHref className="nav__link">
-                            <Logo logoSize="1.9rem"/>
-                        </Link>
-                    </li>
-                </ul>
-                <div className={`${isOpen ? '' : 'hide'}`}> 
-                    {/* wystylować tego diva */}
-                    <ul className='nav__menu'>
-                        <NavLinks/>
-                    </ul>
+            <li className="hamburger__nav">
+                <div className={` ${isOpen ? 'change' : ''}` } onClick={toggleMenu}>
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
                 </div>
-            </nav>
+            </li>
+            <div className={`${isOpen ? '' : 'hide'}`}> 
+                {/* wystylować tego diva */}
+                <ul className='nav__menu'>
+                    <NavLinks/>
+                </ul>
+            </div>
         </>
     )
 }

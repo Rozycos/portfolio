@@ -1,12 +1,16 @@
 import { Header } from '@/components/Home/Header';
 import './globals.scss';
-import { Logo } from '@/components/shared/Logo/Logo';
+
+import { Main } from '@/components/Home/Main/Main';
+import { Footer } from '@/components/Home/Footer/Footer';
 
 export default function Home() {
   return (
     <>
       <Header/>
-      <Logo/>
+      <Main/>
+      <Footer/>
+      
     </>
   )
 }

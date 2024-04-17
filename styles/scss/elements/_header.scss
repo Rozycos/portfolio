@@ -1,65 +1,65 @@
 .header{
 	position: relative;
 	//background-image: url(../../../public/background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	// background-repeat: no-repeat;
+	// background-size: cover;
+	// background-position: center;
 	height: 100vh;
 	/* width: 100vw; */
 	//width: 100%;
     background-color: $color-pastel-purple;
 
 
-    &::before{
-        content:"";
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 3.5rem;
-        background: rgba(0,0,0,.5);
-        top: 0px;
-        left: 0px;
-    }
+    // &::before{
+    //     content:"";
+    //     display: block;
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 3.5rem;
+    //     background: rgba(0,0,0,.5);
+    //     top: 0px;
+    //     left: 0px;
+    // }
 
-    &::after{
-        content:"";
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: rgba(0,0,0,.2);
-        top: 0px;
-        left: 0px;
-    }
+    // &::after{
+    //     content:"";
+    //     display: block;
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 100%;
+    //     background: rgba(0,0,0,.2);
+    //     top: 0px;
+    //     left: 0px;
+    // }
 
-    &__nav{
-        position: relative;
-        z-index: 1;
-        height: 3.5rem;
+    // &__nav{
+    //     position: relative;
+    //     z-index: 1;
+    //     height: 3.5rem;
 
-        &--flex{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            //background: black;
-        }
+    //     &--flex{
+    //         display: flex;
+    //         justify-content: space-between;
+    //         align-items: center;
+    //         //background: black;
+    //     }
 
-    }
+    // }
 
-    &__text{
-        width: 400px;
-        color: white;
-        font-size: 48px;
-        text-wrap: wrap;
-        z-index: 1;
+    // &__text{
+    //     width: 400px;
+    //     color: white;
+    //     font-size: 48px;
+    //     text-wrap: wrap;
+    //     z-index: 1;
 
-        &--position{
-            position: relative;
-            display: flex;
-            justify-content: center;
-            /* top: calc(50vh - 10%); */
-            top: 40vh;
-            margin: 0 auto;
-        }
-    }
+    //     &--position{
+    //         position: relative;
+    //         display: flex;
+    //         justify-content: center;
+    //         /* top: calc(50vh - 10%); */
+    //         top: 40vh;
+    //         margin: 0 auto;
+    //     }
+    // }
 }
