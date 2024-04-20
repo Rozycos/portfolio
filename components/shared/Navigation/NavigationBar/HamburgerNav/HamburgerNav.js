@@ -2,8 +2,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 //import { HamIcon } from "./HamIcon";
-import { Logo } from "../../Logo/Logo";
-import { NavLinks } from "../NavLinks";
+import { Logo } from "../../../Logo/Logo";
+import { NavLinks } from "../../NavLinks";
 
 export const HamburgerNav =()=>{
     const [isOpen, setIsOpen] = useState(false);

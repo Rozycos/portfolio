@@ -25,11 +25,11 @@
     &__nav{
         display: none;
 
-        @include mobile{
+        @include tablet{
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
     }
-
+ 
 }

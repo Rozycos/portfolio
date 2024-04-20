@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
+
 }
 
-// // html {
-// //     font-family: var(--font-inter);
-// // }
+// html {
+//     //font-family: var(--font-inter);
+// 	scroll-behavior: smooth;
+// }
 
 // body {
 //     // font-family: $font-nunito;
@@ -14,15 +16,13 @@
 
 .container__full-width {
 	width: 100vw;
-	//width:1200px;
 	max-width: 100%;
-	margin: 0 auto;
-	padding: 0 1rem;
 }   
 
 .container__fixed-width{
-	max-width: 70rem;
+	max-width: 80rem;
 	margin: 0 auto;
+	padding: 0 1rem;
 }
 
 .hide{

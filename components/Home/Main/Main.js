@@ -1,12 +1,14 @@
 import { Logo } from "@/components/shared/Logo/Logo"
+import { AboutMe } from "./AboutMe/AboutMe"
+import { Portfolio } from "./Portfolio/Portfolio"
 
 export const Main=()=>{
     return(
         <>
-            <div className='header__text header__text--position'>
-                <h2>MAIN</h2>
-                <Logo logoSize="2.5rem"/>
-            </div>
+            <main className='container__full-width'>
+                <AboutMe/>
+                <Portfolio/>
+            </main>
                 
         </>
     )

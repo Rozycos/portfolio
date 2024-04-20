@@ -1,21 +1,23 @@
 "use client"
 import React from 'react';
-//import useScreenSize from '../../../hooks/useScreenSize'; // Ścieżka do twojego hooka
-import { HamburgerNav } from './HamburgerNav/HamburgerNav';
+import useScreenSize from '../../../hooks/useScreenSize'; // Ścieżka do twojego hooka
+import Link from "next/link"
+import { HamburgerNav } from './NavigationBar/HamburgerNav/HamburgerNav';
 import { NavBar } from './NavigationBar/NavBar';
+import { Logo } from '../Logo/Logo';
 
 export const Navigation = () => {
-  //const screenSize = useScreenSize();
+  const screenSize = useScreenSize();
 
   return (
     <>
-      {/* {screenSize === 'smallScreen' ? <HamburgerNav/> : <NavBar/>} */}
-      {/* {screenSize === 'smallScreen' && <p>Mały ekran</p>}
-      {screenSize === 'mediumScreen' && <p>Średni ekran</p>}
-      {screenSize === 'largeScreen' && <p>Duży ekran</p>} */}
-      <NavBar/>
-      
+      <nav className='container__fixed-width header__nav header__nav--flex'>
+        <Link href="/" passHref className="nav__link">
+          {/* <Logo logoSize="2.5rem"/> */}
+          <Logo/>
+        </Link>
+        <NavBar/>
+      </nav>
     </>
-
   );
 };

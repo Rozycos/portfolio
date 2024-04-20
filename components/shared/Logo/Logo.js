@@ -1,11 +1,12 @@
 export const Logo=(props)=>{
-    const style = {
-        fontSize: props.logoSize || '2.5rem',
-      };
+    // const style = {
+    //     fontSize: props.logoSize || '2.5rem',
+    //   };
 
     return(
         <>
-            <span style={style} className='logo'>
+            {/* <span style={style} className='logo'> */}
+            <span className='logo logo--size'>
                 <div className='logo__sqr1'></div>
                 <div className='logo__sqr2'>
                     <span className='logo__main'>
